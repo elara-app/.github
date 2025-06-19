@@ -17,6 +17,8 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 > Note: This section is constantly improving, stay tuned for new things we're working on.
 
 > (List of repositories that make Elera possible)
+<!-- COMMITS-TABLE:START -->
+<!-- COMMITS-TABLE:END -->
 ---
 
 ## 🔨 How are we creating Elara?

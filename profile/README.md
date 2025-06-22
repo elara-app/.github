@@ -22,10 +22,10 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [5999b19](https://github.com/elara-app/unit-of-measure-service/commit/5999b19ec05706db41855eabe9e13585457c5d96) | 6/8/2025, 1:25:45 AM | refactor(repository): rename UnitOfMeasureStatusRepository to UomStatusRepository | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [88c2238](https://github.com/elara-app/.github/commit/88c22380379ea59e8d12deb3d0c575d673efca57) | 6/22/2025, 9:06:56 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [8bd3c2e](https://github.com/elara-app/.github/commit/8bd3c2ec98ffbe84d130208504ff02f622bf2342) | 6/22/2025, 10:07:41 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations](https://github.com/elara-app/validations) | `main` | [306fb7d](https://github.com/elara-app/validations/commit/306fb7d6901bb470ee25fa7a3b4b5300dd1ff5ad) | 6/22/2025, 9:27:04 PM | Merge pull request #2 from elara-app/develop  Initialize Spring Boot project with HexColor validation | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 6/22/2025, 10:07:41 PM_
+_Last updated: 6/22/2025, 11:07:57 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

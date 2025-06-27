@@ -22,9 +22,9 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [5999b19](https://github.com/elara-app/unit-of-measure-service/commit/5999b19ec05706db41855eabe9e13585457c5d96) | 6/8/2025, 1:25:45 AM | refactor(repository): rename UnitOfMeasureStatusRepository to UomStatusRepository | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [98cc80e](https://github.com/elara-app/.github/commit/98cc80ed965572398cc8bb600f668912e225b1c0) | 6/27/2025, 7:06:57 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [d9c6037](https://github.com/elara-app/.github/commit/d9c6037722e03d01b67b4e7248f45e04a1a44279) | 6/27/2025, 8:09:37 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 
-_Last updated: 6/27/2025, 8:09:37 PM_
+_Last updated: 6/27/2025, 9:07:41 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

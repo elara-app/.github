@@ -21,11 +21,11 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [cb03ff4](https://github.com/elara-app/.github/commit/cb03ff4cc90523ef38119f4486564a180917c8f4) | 7/7/2025, 4:10:37 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [148477f](https://github.com/elara-app/.github/commit/148477fc50ad50385b5764e86e1ab8486ad1f72d) | 7/7/2025, 5:08:40 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
-| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [49d4ab9](https://github.com/elara-app/unit-of-measure-service/commit/49d4ab97f9429e70e2b2c8c93b6ba4dc70eca361) | 7/7/2025, 2:03:29 AM | feat(tests): activate test profile for UnitOfMeasureServiceApplicationTests | [julianbetov](https://github.com/julianbetov) |
+| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [2d6f5fb](https://github.com/elara-app/unit-of-measure-service/commit/2d6f5fb24e47a397d9ed3ade2c6eb93abd92c87a) | 7/7/2025, 5:21:33 PM | feat(pom): update POM file with license, developer info, and dependency versions | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 7/7/2025, 5:08:40 PM_
+_Last updated: 7/7/2025, 5:22:27 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

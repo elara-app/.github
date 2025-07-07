@@ -21,11 +21,11 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [9dbd31b](https://github.com/elara-app/.github/commit/9dbd31b46daacacbec82b52bfca5f2eca07a89b8) | 7/6/2025, 11:08:12 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [52bb432](https://github.com/elara-app/.github/commit/52bb432d2152d2f53461f083f94a0fc3bcb058ee) | 7/7/2025, 12:47:39 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
-| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [d56a91f](https://github.com/elara-app/unit-of-measure-service/commit/d56a91f657aa196f1ecdd5ff6f534884c23287ca) | 7/6/2025, 1:59:47 AM | feat(repository): add UomStatus repository and corresponding tests | [julianbetov](https://github.com/julianbetov) |
+| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [49d4ab9](https://github.com/elara-app/unit-of-measure-service/commit/49d4ab97f9429e70e2b2c8c93b6ba4dc70eca361) | 7/7/2025, 2:03:29 AM | feat(tests): activate test profile for UnitOfMeasureServiceApplicationTests | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 7/7/2025, 12:47:39 AM_
+_Last updated: 7/7/2025, 2:47:13 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

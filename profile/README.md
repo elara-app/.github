@@ -21,11 +21,11 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [4fc6a2a](https://github.com/elara-app/.github/commit/4fc6a2af117fe8ddcbb04bb08dfab5fe3bb4e695) | 7/28/2025, 7:16:01 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [a9c8ed4](https://github.com/elara-app/.github/commit/a9c8ed45813af13d6dea795a50d27f571f8713ce) | 7/28/2025, 8:14:56 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [34d83b0](https://github.com/elara-app/unit-of-measure-service/commit/34d83b05d6183e26168548f29be68e8ba3e4a0d9) | 7/25/2025, 4:04:16 AM | feat(errors): enhance ErrorResponse tests to cover all fields and edge cases | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 7/28/2025, 8:14:56 AM_
+_Last updated: 7/28/2025, 9:16:13 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

@@ -21,11 +21,11 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [eac3d23](https://github.com/elara-app/.github/commit/eac3d234801a1d4cface957778e6f915e528eda8) | 7/30/2025, 3:10:01 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [d68e9c2](https://github.com/elara-app/.github/commit/d68e9c297196e38b9cfee9095fee38a37134b764) | 7/30/2025, 4:11:43 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-service` | [af19fbf](https://github.com/elara-app/unit-of-measure-service/commit/af19fbf4fb13320c80878d1bf86f9dc26387539c) | 7/29/2025, 11:32:03 PM | refactor(service): rename existsByName method to isNameTaken and update related logic | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 7/30/2025, 4:11:43 PM_
+_Last updated: 7/30/2025, 5:11:36 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

@@ -21,11 +21,11 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [3f615d4](https://github.com/elara-app/.github/commit/3f615d43d5fda858dfe97360991692f63caa4f84) | 8/5/2025, 8:10:18 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [7661330](https://github.com/elara-app/.github/commit/766133056a6964343c2e5ad8c32aac33b3ff6fe6) | 8/5/2025, 9:08:41 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
-| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-module` | [f0403fe](https://github.com/elara-app/unit-of-measure-service/commit/f0403fefd891b08f959394e31fe5855e763b11bf) | 8/4/2025, 4:02:43 PM | Merge pull request #2 from elara-app/feature/uom-status-refactor-ms  Feature/uom status refactor ms | [julianbetov](https://github.com/julianbetov) |
+| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/uom-status-controller` | [2602b35](https://github.com/elara-app/unit-of-measure-service/commit/2602b3558bd9951560dd722a35ab5367d044adbe) | 8/5/2025, 9:33:03 PM | feat(controller): implement UomStatusController with CRUD operations and validation | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 8/5/2025, 9:08:41 PM_
+_Last updated: 8/5/2025, 10:09:29 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

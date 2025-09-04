@@ -21,12 +21,12 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [aa316b4](https://github.com/elara-app/.github/commit/aa316b47ec2ccb572a8211d932d6481fdb9844cf) | 9/4/2025, 5:01:05 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [bdf69ca](https://github.com/elara-app/.github/commit/bdf69ca6aae484bab3fa634ccbbe8c9f6569142b) | 9/4/2025, 6:11:15 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
-| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `main` | [6e52094](https://github.com/elara-app/unit-of-measure-service/commit/6e520947afb2204b9db0a394e81f9ccd88e50d73) | 9/4/2025, 3:08:23 AM | Merge pull request #9 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
+| [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `develop` | [5855c70](https://github.com/elara-app/unit-of-measure-service/commit/5855c70fd1a92e27a96849497a7827cba42a70e7) | 9/4/2025, 6:19:11 PM | Merge pull request #11 from elara-app/hotfix/fix-http-method-not-supported-error-message  Hotfix/fix http method not supported error message | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [77188f0](https://github.com/elara-app/config-service/commit/77188f0bc26a743da49b6af09cdd55bdd9b8e258) | 8/12/2025, 1:36:53 PM | Initial commit | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 9/4/2025, 6:11:15 PM_
+_Last updated: 9/4/2025, 7:01:12 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

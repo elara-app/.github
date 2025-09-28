@@ -21,12 +21,12 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [55fddaa](https://github.com/elara-app/.github/commit/55fddaa5e2fcc6d7ebc9310fc8601b8cdd4101a2) | 9/28/2025, 9:01:07 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [ffbb870](https://github.com/elara-app/.github/commit/ffbb870ed9a599752098f159f3dde703b581b440) | 9/28/2025, 10:07:33 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `develop` | [d2a0cf8](https://github.com/elara-app/unit-of-measure-service/commit/d2a0cf8f1fb01b4118784d2f8284e841d9b61bd6) | 9/26/2025, 2:46:56 AM | Merge pull request #15 from elara-app/feature/improve-uom-status-service  Feature/improve uom status service | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [77188f0](https://github.com/elara-app/config-service/commit/77188f0bc26a743da49b6af09cdd55bdd9b8e258) | 8/12/2025, 1:36:53 PM | Initial commit | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 9/28/2025, 10:07:33 AM_
+_Last updated: 9/28/2025, 11:01:10 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

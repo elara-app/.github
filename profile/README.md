@@ -21,12 +21,12 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [044eb4b](https://github.com/elara-app/.github/commit/044eb4b1f6d5df82804f2ebe246fe948f1f2e018) | 9/28/2025, 9:00:59 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [57b62e8](https://github.com/elara-app/.github/commit/57b62e834ef040a0bc49ce170405ba05320e10e7) | 9/28/2025, 9:34:36 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `main` | [ce975d4](https://github.com/elara-app/unit-of-measure-service/commit/ce975d47cf38ff91d9558efd79b33952983d6920) | 9/28/2025, 9:33:01 PM | Merge pull request #17 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [77188f0](https://github.com/elara-app/config-service/commit/77188f0bc26a743da49b6af09cdd55bdd9b8e258) | 8/12/2025, 1:36:53 PM | Initial commit | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 9/28/2025, 9:34:36 PM_
+_Last updated: 9/28/2025, 10:07:04 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

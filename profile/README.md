@@ -21,13 +21,13 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
-| [inventory-service](https://github.com/elara-app/inventory-service) | `feature/rest-of-endpoints` | [c54eed2](https://github.com/elara-app/inventory-service/commit/c54eed2b6058ca04f1c4fb1418c5240b98128788) | 9/29/2025, 6:13:06 PM | Merge pull request #14 from elara-app/feature/get-all-endpoint  Feature/get all endpoint | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [3e87dc8](https://github.com/elara-app/.github/commit/3e87dc84bc639d12f4b337e8bb2922c0322eeb8e) | 9/29/2025, 5:08:33 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [inventory-service](https://github.com/elara-app/inventory-service) | `feature/is-name-taken-endpoint` | [77d4d40](https://github.com/elara-app/inventory-service/commit/77d4d40f71d65a105cb8b47eb618550ba7928215) | 9/29/2025, 6:38:50 PM | Merge pull request #17 from elara-app/feature/get-all-by-name-endpoint  Feature/get all by name endpoint | [julianbetov](https://github.com/julianbetov) |
+| [.github](https://github.com/elara-app/.github) | `main` | [036f263](https://github.com/elara-app/.github/commit/036f2635f6ed8efb9d6e6f2e9faee7d443ec6bb0) | 9/29/2025, 6:13:14 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `main` | [ce975d4](https://github.com/elara-app/unit-of-measure-service/commit/ce975d47cf38ff91d9558efd79b33952983d6920) | 9/28/2025, 9:33:01 PM | Merge pull request #17 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [77188f0](https://github.com/elara-app/config-service/commit/77188f0bc26a743da49b6af09cdd55bdd9b8e258) | 8/12/2025, 1:36:53 PM | Initial commit | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 9/29/2025, 6:13:14 PM_
+_Last updated: 9/29/2025, 7:01:13 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

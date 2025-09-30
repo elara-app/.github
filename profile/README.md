@@ -22,12 +22,12 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `main` | [06e4f6f](https://github.com/elara-app/inventory-service/commit/06e4f6f61b6eac16ecd87e189f87949f34b2a6a0) | 9/29/2025, 8:03:36 PM | Merge pull request #29 from elara-app/release/first-release  Release/first release | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [92f2af1](https://github.com/elara-app/.github/commit/92f2af156fa13e8b4f37833375cb6216061b68b8) | 9/30/2025, 5:08:59 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [a6fb707](https://github.com/elara-app/.github/commit/a6fb707b64b3fd5b9e81e2696b0f7a6762777952) | 9/30/2025, 6:13:50 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `main` | [ce975d4](https://github.com/elara-app/unit-of-measure-service/commit/ce975d47cf38ff91d9558efd79b33952983d6920) | 9/28/2025, 9:33:01 PM | Merge pull request #17 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [77188f0](https://github.com/elara-app/config-service/commit/77188f0bc26a743da49b6af09cdd55bdd9b8e258) | 8/12/2025, 1:36:53 PM | Initial commit | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 9/30/2025, 6:13:49 AM_
+_Last updated: 9/30/2025, 7:01:19 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

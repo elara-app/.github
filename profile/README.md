@@ -22,13 +22,13 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [e42aed6](https://github.com/elara-app/inventory-service/commit/e42aed6ea0456638175758f3972bf8cfc2737add) | 9/30/2025, 7:57:46 PM | Merge pull request #36 from elara-app/release/update-version-to-1.1  chore(pom): update version from 1.0 to 1.1 | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [4f8074c](https://github.com/elara-app/.github/commit/4f8074c2b93e16f6661783d13b7e8a2a4ba0b401) | 10/1/2025, 8:12:29 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [e2c3c59](https://github.com/elara-app/.github/commit/e2c3c59d8ea4587f829468ff26d1037cba3c809b) | 10/1/2025, 9:09:57 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `develop` | [d14239d](https://github.com/elara-app/unit-of-measure-service/commit/d14239dd7fb4f3ba92c3048e31814e4c336ba97a) | 9/30/2025, 7:17:38 PM | Merge pull request #22 from elara-app/release/add-discovery-client-feat  chore(pom): update version to 1.1 | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [77188f0](https://github.com/elara-app/config-service/commit/77188f0bc26a743da49b6af09cdd55bdd9b8e258) | 8/12/2025, 1:36:53 PM | Initial commit | [julianbetov](https://github.com/julianbetov) |
 | [discovery-service](https://github.com/elara-app/discovery-service) | `main` | [8d1ebaf](https://github.com/elara-app/discovery-service/commit/8d1ebafca6feee5b7779d9b4df532c0f3338910d) | 9/30/2025, 7:05:05 PM | Merge pull request #3 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 10/1/2025, 9:09:57 AM_
+_Last updated: 10/1/2025, 10:09:25 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

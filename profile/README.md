@@ -22,14 +22,14 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `feature/config-server-setup` | [7be0480](https://github.com/elara-app/inventory-service/commit/7be04809cc87612b95dc19cee27f5ed0f6dc0dbd) | 10/6/2025, 4:09:33 AM | feat(config): add application-dev.yml for Vault integration | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [8ec3329](https://github.com/elara-app/.github/commit/8ec33292541efb2e9286cc1262f90aca09b60fe3) | 10/6/2025, 5:08:50 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [aebd16d](https://github.com/elara-app/.github/commit/aebd16dc6100cd5b08e198f9dce14095cd67f46e) | 10/6/2025, 6:13:29 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `develop` | [9e812b2](https://github.com/elara-app/unit-of-measure-service/commit/9e812b2d8a32b84998d6d5ac3391a15b49cd782b) | 10/6/2025, 3:52:37 AM | feat(config): simplify config import in application.yml | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `develop` | [d3dd1cd](https://github.com/elara-app/config-service/commit/d3dd1cd909e9a6c639146f93a11caf6988e07567) | 10/1/2025, 7:05:34 PM | initialize config-service project with Maven setup and basic application structure | [julianbetov](https://github.com/julianbetov) |
 | [discovery-service](https://github.com/elara-app/discovery-service) | `main` | [8d1ebaf](https://github.com/elara-app/discovery-service/commit/8d1ebafca6feee5b7779d9b4df532c0f3338910d) | 9/30/2025, 7:05:05 PM | Merge pull request #3 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [66101ff](https://github.com/elara-app/centralized-configuration/commit/66101ff66c03a73aa37c80fedcf6e1508694a35f) | 10/6/2025, 4:05:20 AM | Merge pull request #17 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 10/6/2025, 6:13:29 AM_
+_Last updated: 10/6/2025, 7:09:24 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

@@ -22,7 +22,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [a91d6ab](https://github.com/elara-app/inventory-service/commit/a91d6abf3d54d083da636cdfc55d60b477b2d951) | 10/30/2025, 5:44:19 PM | feat(uom): refactor UomServiceClient to UomServiceClientImp and update references | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [87bba0e](https://github.com/elara-app/.github/commit/87bba0e60a9cec1d5d5b56dafad5e7e462a2731c) | 10/30/2025, 9:01:29 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [ebdfa7d](https://github.com/elara-app/.github/commit/ebdfa7df15df4903def4cbe0fb3fb531d280894f) | 10/30/2025, 10:08:04 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/refactor-code` | [7f36373](https://github.com/elara-app/unit-of-measure-service/commit/7f36373516d03a7cd9161036f6503176d70fc260) | 10/30/2025, 5:22:22 PM | refactor(mapper): suggest using @Context in mapper to streamline UomStatus assignment in UomServiceImp | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `develop` | [efbb1b2](https://github.com/elara-app/config-service/commit/efbb1b237ee3c86f977ac6dadd8b267df60c89a5) | 10/7/2025, 1:31:22 PM | Merge pull request #4 from elara-app/feature/first-release  chore(pom): update version to 1.0 | [julianbetov](https://github.com/julianbetov) |
@@ -30,7 +30,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [41361a4](https://github.com/elara-app/centralized-configuration/commit/41361a4f50fc6adb64a3c65b4880ffc661f15276) | 10/6/2025, 6:21:00 PM | Add management and logging configuration to API gateway | [julianbetov](https://github.com/julianbetov) |
 | [api-gateway](https://github.com/elara-app/api-gateway) | `develop` | [fbfb195](https://github.com/elara-app/api-gateway/commit/fbfb195bcb911021ffd0a5b502da3e768b68c3a5) | 10/6/2025, 5:09:41 PM | Merge pull request #1 from elara-app/feature/pom-organization  build(pom): enhance project setup with metadata and refine dependencies | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 10/30/2025, 10:08:03 PM_
+_Last updated: 10/30/2025, 11:01:10 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

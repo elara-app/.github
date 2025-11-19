@@ -22,7 +22,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `feature/refactor-code` | [30f6848](https://github.com/elara-app/inventory-service/commit/30f6848245549801fa5a1cf50df28808034f00fb) | 11/10/2025, 2:55:36 PM | refactor(pom): add spring-boot-starter-actuator dependency | [julianbetov](https://github.com/julianbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [5a0a421](https://github.com/elara-app/.github/commit/5a0a4215f8214e0859c45b8071c198c9abfdda93) | 11/19/2025, 12:17:08 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [712e478](https://github.com/elara-app/.github/commit/712e478b98cbfbeb64904c611d4c7662e3b9b740) | 11/19/2025, 1:24:34 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `feature/refactor-code` | [ea91877](https://github.com/elara-app/unit-of-measure-service/commit/ea91877236c28b2fda5069453a453739636748f2) | 11/10/2025, 7:23:20 PM | refactor(tests): update UomStatusControllerTest and UomStatusServiceImpTest for clarity and consistency | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `develop` | [fec63b4](https://github.com/elara-app/config-service/commit/fec63b4e8478c4e5c5efb4e803ef10fc925f3145) | 11/1/2025, 10:10:02 PM | feat(config): update application.yml for server port and active profile | [julianbetov](https://github.com/julianbetov) |
@@ -30,7 +30,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [ed969bc](https://github.com/elara-app/centralized-configuration/commit/ed969bc518b93a32f3210358e2d908c6e8a549bf) | 11/2/2025, 10:26:17 PM | Refactor API gateway configuration by removing management and logging sections for clarity | [julianbetov](https://github.com/julianbetov) |
 | [api-gateway](https://github.com/elara-app/api-gateway) | `feature/initial-setup` | [e9b72b5](https://github.com/elara-app/api-gateway/commit/e9b72b5d8aaa3d877e48ce68a22e9f90d7f1a8a7) | 11/2/2025, 11:31:43 PM | feat(pom): add Spring WebFlux and Spring Cloud dependencies to pom.xml | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 11/19/2025, 1:24:34 PM_
+_Last updated: 11/19/2025, 2:01:11 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

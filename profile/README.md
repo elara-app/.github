@@ -22,7 +22,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | --- | --- | --- | --- | --- | --- |
 | [demo-repository](https://github.com/elara-app/demo-repository) | `test-branch` | [6bc3cad](https://github.com/elara-app/demo-repository/commit/6bc3cad5532e9f2caeda50d80fc76ebd09af0feb) | 6/14/2025, 8:45:23 PM | New commit | [julianbetov](https://github.com/julianbetov) |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `copilot/create-best-readme-file` | [88d4dbf](https://github.com/elara-app/inventory-service/commit/88d4dbfc492fea32d309622adc3b86906ee8f31e) | 2/4/2026, 8:51:24 PM | Restructure README.md to match unit-of-measure-service format exactly  Co-authored-by: julianbetov <91708539+julianbetov@users.noreply.github.com> | [Copilot](https://github.com/apps/copilot-swe-agent) |
-| [.github](https://github.com/elara-app/.github) | `main` | [b746318](https://github.com/elara-app/.github/commit/b746318e7c1ed0ad84170afb85749df3c24899f6) | 2/20/2026, 8:26:26 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [8536296](https://github.com/elara-app/.github/commit/853629685e61700e8eaec41e6153e8dc027f209b) | 2/20/2026, 9:28:46 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [julianbetov](https://github.com/julianbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `main` | [3ba4b24](https://github.com/elara-app/unit-of-measure-service/commit/3ba4b24f42a11f404b521cf4a15e74de7a238b1f) | 2/4/2026, 8:27:55 PM | Merge pull request #29 from elara-app/copilot/update-readme-for-unit-of-measure-service  Add comprehensive README.md documentation | [julianbetov](https://github.com/julianbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `develop` | [fec63b4](https://github.com/elara-app/config-service/commit/fec63b4e8478c4e5c5efb4e803ef10fc925f3145) | 11/1/2025, 10:10:02 PM | feat(config): update application.yml for server port and active profile | [julianbetov](https://github.com/julianbetov) |
@@ -30,7 +30,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [6a42c05](https://github.com/elara-app/centralized-configuration/commit/6a42c05098a3130efba22d9c923a259f099aa939) | 11/21/2025, 12:51:57 AM | Revert instance-id configuration to use random.uuid in Inventory and UoM service development profiles | [julianbetov](https://github.com/julianbetov) |
 | [api-gateway](https://github.com/elara-app/api-gateway) | `main` | [9c23300](https://github.com/elara-app/api-gateway/commit/9c2330076406c61bddf214b985b4737e597b3827) | 2/4/2026, 7:14:22 PM | Merge pull request #3 from elara-app/develop  Develop | [julianbetov](https://github.com/julianbetov) |
 
-_Last updated: 2/20/2026, 9:28:46 AM_
+_Last updated: 2/20/2026, 10:24:24 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

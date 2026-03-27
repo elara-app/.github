@@ -21,14 +21,14 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [009412f](https://github.com/elara-app/inventory-service/commit/009412f3fb93d05dc36f34b7d9a2c73863cf8ad0) | 3/27/2026, 5:48:40 PM | Merge pull request #47 from elara-app/refactor-pom-dev-data  refactor(pom): update developer information in pom.xml | [andresbetov](https://github.com/andresbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [f444dbb](https://github.com/elara-app/.github/commit/f444dbbc2bac4068747b7a861dd4d68985daf62d) | 3/27/2026, 8:22:20 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [fe8fb91](https://github.com/elara-app/.github/commit/fe8fb9197b0a3fb4ec10212f069bfa00785fb22b) | 3/27/2026, 9:22:35 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [andresbetov](https://github.com/andresbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `develop` | [fec63b4](https://github.com/elara-app/config-service/commit/fec63b4e8478c4e5c5efb4e803ef10fc925f3145) | 11/1/2025, 10:10:02 PM | feat(config): update application.yml for server port and active profile | [andresbetov](https://github.com/andresbetov) |
 | [discovery-service](https://github.com/elara-app/discovery-service) | `main` | [8d1ebaf](https://github.com/elara-app/discovery-service/commit/8d1ebafca6feee5b7779d9b4df532c0f3338910d) | 9/30/2025, 7:05:05 PM | Merge pull request #3 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [6a42c05](https://github.com/elara-app/centralized-configuration/commit/6a42c05098a3130efba22d9c923a259f099aa939) | 11/21/2025, 12:51:57 AM | Revert instance-id configuration to use random.uuid in Inventory and UoM service development profiles | [andresbetov](https://github.com/andresbetov) |
 | [api-gateway](https://github.com/elara-app/api-gateway) | `main` | [9c23300](https://github.com/elara-app/api-gateway/commit/9c2330076406c61bddf214b985b4737e597b3827) | 2/4/2026, 7:14:22 PM | Merge pull request #3 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 
-_Last updated: 3/27/2026, 9:22:35 PM_
+_Last updated: 3/27/2026, 10:17:54 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

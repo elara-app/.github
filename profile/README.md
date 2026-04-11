@@ -21,7 +21,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [81b34ff](https://github.com/elara-app/inventory-service/commit/81b34ffa9ea00aa9c31483d7e30d0e62423b71d3) | 4/7/2026, 3:05:30 AM | Merge branch 'main' into develop | [andresbetov](https://github.com/andresbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [a2e726f](https://github.com/elara-app/.github/commit/a2e726f4938367e3a0d16c2ab81a2611a4f27e8e) | 4/11/2026, 9:28:14 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [.github](https://github.com/elara-app/.github) | `main` | [950e160](https://github.com/elara-app/.github/commit/950e16096ef84d24c2986df5e4795d24d9001bbe) | 4/11/2026, 10:20:49 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [andresbetov](https://github.com/andresbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `main` | [33d1c76](https://github.com/elara-app/unit-of-measure-service/commit/33d1c763f456802d995a7753c419975dae066542) | 4/11/2026, 12:35:43 AM | Merge pull request #40 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [6a255a3](https://github.com/elara-app/config-service/commit/6a255a3d82b1b955c5a913dc25267b414e763a3a) | 4/11/2026, 3:20:23 AM | Merge pull request #9 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
@@ -29,7 +29,7 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [247bed9](https://github.com/elara-app/centralized-configuration/commit/247bed95ad103561af7dd46338118b64680e5766) | 4/11/2026, 3:28:27 AM | Merge pull request #21 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 | [api-gateway](https://github.com/elara-app/api-gateway) | `main` | [9c23300](https://github.com/elara-app/api-gateway/commit/9c2330076406c61bddf214b985b4737e597b3827) | 2/4/2026, 7:14:22 PM | Merge pull request #3 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 
-_Last updated: 4/11/2026, 10:20:48 AM_
+_Last updated: 4/11/2026, 11:19:46 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

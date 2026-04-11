@@ -18,6 +18,17 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 
 > (List of repositories that make Elera possible)
 <!-- COMMITS-TABLE:START -->
+| Repository | Branch | Commit | Date (UTC) | Message | Author |
+| --- | --- | --- | --- | --- | --- |
+| [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [81b34ff](https://github.com/elara-app/inventory-service/commit/81b34ffa9ea00aa9c31483d7e30d0e62423b71d3) | 4/7/2026, 3:05:30 AM | Merge branch 'main' into develop | [andresbetov](https://github.com/andresbetov) |
+| [.github](https://github.com/elara-app/.github) | `main` | [5e73563](https://github.com/elara-app/.github/commit/5e73563827fd4d7d5e58abda318dc8d6f2dc6dd9) | 4/7/2026, 7:46:36 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
+| [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [andresbetov](https://github.com/andresbetov) |
+| [config-service](https://github.com/elara-app/config-service) | `develop` | [fec63b4](https://github.com/elara-app/config-service/commit/fec63b4e8478c4e5c5efb4e803ef10fc925f3145) | 11/1/2025, 10:10:02 PM | feat(config): update application.yml for server port and active profile | [andresbetov](https://github.com/andresbetov) |
+| [discovery-service](https://github.com/elara-app/discovery-service) | `main` | [8d1ebaf](https://github.com/elara-app/discovery-service/commit/8d1ebafca6feee5b7779d9b4df532c0f3338910d) | 9/30/2025, 7:05:05 PM | Merge pull request #3 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
+| [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [6a42c05](https://github.com/elara-app/centralized-configuration/commit/6a42c05098a3130efba22d9c923a259f099aa939) | 11/21/2025, 12:51:57 AM | Revert instance-id configuration to use random.uuid in Inventory and UoM service development profiles | [andresbetov](https://github.com/andresbetov) |
+| [api-gateway](https://github.com/elara-app/api-gateway) | `main` | [9c23300](https://github.com/elara-app/api-gateway/commit/9c2330076406c61bddf214b985b4737e597b3827) | 2/4/2026, 7:14:22 PM | Merge pull request #3 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
+
+_Last updated: 4/7/2026, 8:32:25 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

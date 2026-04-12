@@ -2,7 +2,7 @@ name: Update README Commits Table
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
+    - cron: '0 0 1,15 * *'
   workflow_dispatch:    # Allows manual trigger from GitHub UI
 
 jobs:

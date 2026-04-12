@@ -21,15 +21,14 @@ Elara  allows for efficient management of users and roles, inventory and stock l
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [4c45604](https://github.com/elara-app/inventory-service/commit/4c456043c04bb3ec75242c7b280c9b0760db8e22) | 4/12/2026, 8:19:40 PM | Merge pull request #59 from elara-app/feature/improve-readme-file  docs(README.md): enhance project description and service interaction … | [andresbetov](https://github.com/andresbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [1de4b5d](https://github.com/elara-app/.github/commit/1de4b5df270830de47fd6d60cbd720f35bfb4598) | 4/12/2026, 8:20:40 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
-| [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [andresbetov](https://github.com/andresbetov) |
+| [.github](https://github.com/elara-app/.github) | `develop` | [8cb872c](https://github.com/elara-app/.github/commit/8cb872c9d23e78b2f517fa621f03f3611c351e75) | 4/12/2026, 8:43:04 PM | Merge pull request #6 from elara-app/feature/add-repo-documentation  Add initial README documentation for Elara organization profile autom… | [andresbetov](https://github.com/andresbetov) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `develop` | [1ad7a3f](https://github.com/elara-app/unit-of-measure-service/commit/1ad7a3f749d6bba7022c76ca91638a92766ee3cd) | 4/12/2026, 8:10:27 PM | Merge pull request #45 from elara-app/hotfix/fix-list-in-readme  Hotfix/fix list in readme | [andresbetov](https://github.com/andresbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `main` | [6c24f3d](https://github.com/elara-app/config-service/commit/6c24f3d42b256cde96e74a6fe8790ce4cee806bd) | 4/11/2026, 3:20:23 AM | Merge pull request #9 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 | [discovery-service](https://github.com/elara-app/discovery-service) | `main` | [f52da57](https://github.com/elara-app/discovery-service/commit/f52da57708a885106731f21e85a47d8783d17c30) | 4/12/2026, 12:52:39 AM | Merge pull request #5 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [dabb25f](https://github.com/elara-app/centralized-configuration/commit/dabb25f4f992d76aa6c299767de1f659870e5511) | 4/11/2026, 3:28:27 AM | Merge pull request #21 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 | [api-gateway](https://github.com/elara-app/api-gateway) | `main` | [ecf52ad](https://github.com/elara-app/api-gateway/commit/ecf52ad336aa56ac4c157b6161f9ac340aa2c92f) | 4/11/2026, 11:56:54 PM | Merge pull request #6 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
 
-_Last updated: 4/12/2026, 8:21:54 PM_
+_Last updated: 4/12/2026, 9:21:22 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 

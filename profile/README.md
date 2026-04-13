@@ -127,4 +127,4 @@ Implementation details are available here: [elara-app/.github/src](https://githu
 
 ### Companion step-by-step creation guide
 
-For readers who want full technical context, this project is accompanied by a 281-page guide that documents the architecture from zero, explains why each major decision was made, details trade-offs (pros/cons), and describes the quality framework and engineering standards applied across implementation: [Creating Elara App - Software Development](https://docs.google.com/document/d/1eJTg3-qAXy3PJtfzBTZdcgy597JHPAEZ2ok6tBuj8Co/edit?usp=sharing).
+For readers who want full technical context, this project is accompanied by a 281-page guide that documents the architecture from zero, explains why each major decision was made, details trade-offs (pros/cons), and describes the quality framework and engineering standards applied across implementation: [Creating Elara App - Software Development](https://docs.google.com/document/d/1eJTg3-qAXy3PJtfzBTZdcgy597JHPAEZ2ok6tBuj8Co/edit?usp=sharing) (The document is in Spanish).

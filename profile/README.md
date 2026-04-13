@@ -1,52 +1,119 @@
-![Alt text](../images/complete-logo.png "a title")
-# 🍜 Welcome to Elara
+![Elara logo](../images/complete-logo.png)
+# Welcome to Elara
 
-**Elara** is a personal project turned into a professional-grade solution — an application designed to simplify and optimize operations in **restaurants, gastrobars, and restobars**. Built with passion by a **Systems Engineering student and software development enthusiast** ([@julianbetov](https://github.com/julianbetov)), Elara combines practical business logic with clean backend architecture.
+**Elara** is a microservices backend focused on **inventory management** and **unit-of-measure governance**.
 
----
-
-## 🍚 What Elara Does
-
-> All-in-one system to help modern food businesses manage their backend operations with clarity and control.
-
-Elara  allows for efficient management of users and roles, inventory and stock levels, product catalogs with variants, recipe creation based on ingredients, and order tracking. Additionally, it provides tools for logging business activities and monitoring financial data, including income and expenses — offering full visibility and control over daily operations.
+This project was conceived and developed autonomously by [@andresbetov](https://github.com/andresbetov), with a strong focus on production-grade software practices, long-term maintainability, and technical clarity.
 
 ---
 
-## 👩‍🚀 Our Progress
-> Note: This section is constantly improving, stay tuned for new things we're working on.
+## Implemented scope (current)
 
-> (List of repositories that make Elera possible)
+Elara currently implements two core business capabilities:
+
+1. **Inventory domain** (`inventory-service`): inventory item lifecycle management (create, update, delete, get by id, pagination, and search).
+2. **Unit-of-measure domain** (`unit-of-measure-service`): UOM catalog and UOM status lifecycle used as reference data for inventory validation.
+
+The rest of the platform services support these domains as infrastructure components.
+
+---
+
+## Implemented APIs (high-level)
+
+| Service | Base path | Implemented operations |
+| --- | --- | --- |
+| `inventory-service` | `/item/` | Create, update, delete, get by id, paginated list, paginated name search |
+| `unit-of-measure-service` | `/` and `/status/` | UOM CRUD, UOM status CRUD, status-based filtering, status association/usability changes |
+
+Detailed contracts and examples are documented in each service repository:
+- [inventory-service README](https://github.com/elara-app/inventory-service/blob/develop/README.md)
+- [unit-of-measure-service README](https://github.com/elara-app/unit-of-measure-service/blob/develop/README.md)
+
+---
+
+## Service architecture
+
+Elara is structured as a decoupled Spring Cloud ecosystem where each service owns a specific responsibility:
+
+| Component | Technical role |
+| --- | --- |
+| `api-gateway` | Single entry point for clients, routing requests to internal services. |
+| `discovery-service` | Eureka service registry for dynamic service lookup and resilient routing. |
+| `config-service` | Centralized configuration server for environment-aware runtime properties. |
+| `centralized-configuration` | Versioned configuration repository (`dev`, `test`, `prod`) consumed by Config Server. |
+| `unit-of-measure-service` | Reference-data service for UOM catalog and status governance. |
+| `inventory-service` | Domain service for inventory item lifecycle and stock-related master data. |
+
+This separation of concerns enables independent evolution, safer deployments, and clear service ownership boundaries.
+
+---
+
+## Runtime flow
+
+1. Clients call `api-gateway`.
+2. Gateway resolves target services through `discovery-service`.
+3. Services bootstrap configuration from `config-service`, backed by `centralized-configuration`.
+4. `inventory-service` validates UOM dependencies against `unit-of-measure-service` through discovery-aware service communication.
+5. Secrets are sourced via Vault integration in supported profiles.
+
+This model keeps domain services focused on business rules while platform services handle cross-cutting infrastructure concerns.
+
+---
+
+## Engineering quality standards
+
+- **Layered architecture** (`controller -> service -> repository -> mapper -> DTO`), with explicit boundaries and low coupling.
+- **Strict validation** at API and persistence levels (`jakarta.validation`, entity constraints).
+- **Centralized error contracts** using typed exception hierarchies and global handlers.
+- **OpenAPI-first documentation** with reusable schemas and concrete JSON examples.
+- **Testing discipline** across controller, service, repository, mapper, exception, and utility layers.
+- **Build-enforced quality gates** with JaCoCo thresholds in Maven lifecycle.
+- **Externalized configuration and secret management** (Config Server + profile-specific config + Vault integration).
+- **Production-friendly observability patterns** via structured logging conventions and explicit operational contracts.
+
+These are implementation-level decisions that directly improve reliability, maintainability, and scalability.
+
+---
+
+## Evidence-backed quality references
+
+- **Quality gates in build** (JaCoCo thresholds enforced in Maven lifecycle):
+  - [inventory-service `pom.xml`](https://github.com/elara-app/inventory-service/blob/develop/pom.xml)
+  - [unit-of-measure-service `pom.xml`](https://github.com/elara-app/unit-of-measure-service/blob/develop/pom.xml)
+- **Testing standards and patterns**:
+  - [inventory-service `TESTING_GUIDE.md`](https://github.com/elara-app/inventory-service/blob/develop/TESTING_GUIDE.md)
+  - [unit-of-measure-service `TESTING_GUIDE.md`](https://github.com/elara-app/unit-of-measure-service/blob/develop/TESTING_GUIDE.md)
+- **Service-level architecture and runtime contracts**:
+  - [api-gateway README](https://github.com/elara-app/api-gateway/blob/main/README.md)
+  - [config-service README](https://github.com/elara-app/config-service/blob/main/README.md)
+  - [discovery-service README](https://github.com/elara-app/discovery-service/blob/main/README.md)
+  - [centralized-configuration README](https://github.com/elara-app/centralized-configuration/blob/main/README.md)
+
+---
+
+## Out of scope (current profile scope)
+
+This README intentionally describes only what is currently documented and implemented in this architecture scope:
+- inventory item management,
+- unit-of-measure and unit-of-measure-status management,
+- the platform services that support those domains (gateway, discovery, config, centralized configuration).
+
+It does **not** claim additional implemented business modules in this profile beyond that scope.
+
+---
+
+## Project activity
+> Automatically synchronized list of repositories and latest commits in the Elara organization.
+
 <!-- COMMITS-TABLE:START -->
-| Repository | Branch | Commit | Date (UTC) | Message | Author |
-| --- | --- | --- | --- | --- | --- |
-| [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [81b34ff](https://github.com/elara-app/inventory-service/commit/81b34ffa9ea00aa9c31483d7e30d0e62423b71d3) | 4/7/2026, 3:05:30 AM | Merge branch 'main' into develop | [andresbetov](https://github.com/andresbetov) |
-| [.github](https://github.com/elara-app/.github) | `main` | [5e73563](https://github.com/elara-app/.github/commit/5e73563827fd4d7d5e58abda318dc8d6f2dc6dd9) | 4/7/2026, 7:46:36 PM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
-| [validations-test](https://github.com/elara-app/validations-test) | `main` | [32a7d4f](https://github.com/elara-app/validations-test/commit/32a7d4f7afdb2805267a6345143881f6962f6350) | 7/5/2025, 5:46:27 PM | Merge pull request #31 from elara-app/hotfix/give-package-permissions-to-ci-shared-workflow-from-release  Grant package write permissions to CI shared workflow from release | [andresbetov](https://github.com/andresbetov) |
-| [config-service](https://github.com/elara-app/config-service) | `develop` | [fec63b4](https://github.com/elara-app/config-service/commit/fec63b4e8478c4e5c5efb4e803ef10fc925f3145) | 11/1/2025, 10:10:02 PM | feat(config): update application.yml for server port and active profile | [andresbetov](https://github.com/andresbetov) |
-| [discovery-service](https://github.com/elara-app/discovery-service) | `main` | [8d1ebaf](https://github.com/elara-app/discovery-service/commit/8d1ebafca6feee5b7779d9b4df532c0f3338910d) | 9/30/2025, 7:05:05 PM | Merge pull request #3 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
-| [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `main` | [6a42c05](https://github.com/elara-app/centralized-configuration/commit/6a42c05098a3130efba22d9c923a259f099aa939) | 11/21/2025, 12:51:57 AM | Revert instance-id configuration to use random.uuid in Inventory and UoM service development profiles | [andresbetov](https://github.com/andresbetov) |
-| [api-gateway](https://github.com/elara-app/api-gateway) | `main` | [9c23300](https://github.com/elara-app/api-gateway/commit/9c2330076406c61bddf214b985b4737e597b3827) | 2/4/2026, 7:14:22 PM | Merge pull request #3 from elara-app/develop  Develop | [andresbetov](https://github.com/andresbetov) |
-
-_Last updated: 4/7/2026, 8:32:25 PM_
 <!-- COMMITS-TABLE:END -->
 ---
 
-## 🔨 How are we creating Elara?
-- The table above is a production-ready automation tool for keeping a section of a GitHub organization's README synchronized with the live repository's data, using modern Node.js, the GitHub API, and software engineering best practices. [See code here](https://github.com/elara-app/.github/tree/main/src). 
-    
-    **Key points:**
-    - Separation of concerns y modularity.
-    - professional GitHub App authentication (Uses GitHub App installation authentication, not a personal token).
-    - Dynamic Data Fetching.
-    - Markdown Table Rendering.
-    - Safe, targeted README updates.
-    - Direct GitHub integration.
-    - Robust logging & Error handling.
+## How this profile stays up to date
 
-### 🧑‍💻 Development of other services
-The Elara's backend is developed with a decoupled **microservices architecture**, each with its own **PostgreSQL database**, asynchronous communication via **Kafka** or **RabbitMQ**, centralized configuration with **Spring Cloud Config Server**, and exposure through an **API Gateway**. It is containerized with **Docker**, orchestrated with **Kubernetes**, and automated with **GitHub Actions** under a **Git Flow**, enabling **professional CI/CD**, **horizontal scalability**, and **cloud deployment** (AWS, Azure, or GCP). It includes **OAuth2 and JWT authentication**, robust validations, centralized error handling, structured logging, and automatic documentation with **Swagger**. And more.
+The commits table above is maintained by an automated updater in the `.github` repository, using GitHub App authentication and targeted README updates.  
+Implementation details are available here: [elara-app/.github/src](https://github.com/elara-app/.github/tree/main/src).
 
-Its design allows it to support **high traffic**, **guarantee security** and **availability**, and facilitate **system maintenance** and **evolution**. It is ideal for medium-sized or large companies that need a solid, scalable, production-ready foundation, or for startups looking for a modern architecture ready to grow without rewriting from scratch.
+### Companion step-by-step creation guide
 
-> Note: This document currently shows the entire development process of the elara application (we are still working on it): [Creating Elara App - Development Software](https://docs.google.com/document/d/1eJTg3-qAXy3PJtfzBTZdcgy597JHPAEZ2ok6tBuj8Co/edit?usp=sharing)
+For readers who want full technical context, this project is accompanied by a 281-page guide that documents the architecture from zero, explains why each major decision was made, details trade-offs (pros/cons), and describes the quality framework and engineering standards applied across implementation: [Creating Elara App - Software Development](https://docs.google.com/document/d/1eJTg3-qAXy3PJtfzBTZdcgy597JHPAEZ2ok6tBuj8Co/edit?usp=sharing).

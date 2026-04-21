@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/elara-app/.github)
+
 # Elara Organization Profile Automation (`.github`)
 
 Automation repository used to keep the Elara organization README updated with development progress from project repositories.

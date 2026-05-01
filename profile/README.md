@@ -109,14 +109,14 @@ It does **not** claim additional implemented business modules in this profile be
 | Repository | Branch | Commit | Date (UTC) | Message | Author |
 | --- | --- | --- | --- | --- | --- |
 | [inventory-service](https://github.com/elara-app/inventory-service) | `develop` | [315c8cf](https://github.com/elara-app/inventory-service/commit/315c8cf05a56b97ff8c68f79cd517f8e960ecd4e) | 4/21/2026, 12:13:53 AM | Merge pull request #61 from elara-app/main  Add DeepWiki Badge | [andresbetov](https://github.com/andresbetov) |
-| [.github](https://github.com/elara-app/.github) | `develop` | [9b9b3a4](https://github.com/elara-app/.github/commit/9b9b3a48581980603d560c32ce3dc8366ca9c485) | 4/21/2026, 12:12:58 AM | Merge pull request #9 from elara-app/main  Update develop with recent chages in main | [andresbetov](https://github.com/andresbetov) |
+| [.github](https://github.com/elara-app/.github) | `main` | [b26fa9c](https://github.com/elara-app/.github/commit/b26fa9ce4034e617014e95093ab00068fdfe1ea2) | 4/21/2026, 12:30:42 AM | Update commits table in README | [readme-updater-from-elara[bot]](https://github.com/apps/readme-updater-from-elara) |
 | [unit-of-measure-service](https://github.com/elara-app/unit-of-measure-service) | `develop` | [5c70aca](https://github.com/elara-app/unit-of-measure-service/commit/5c70acaa65890636c932d79515b97eb711ec72ca) | 4/21/2026, 12:15:03 AM | Merge pull request #46 from elara-app/main  Add DeepWiki Badge | [andresbetov](https://github.com/andresbetov) |
 | [config-service](https://github.com/elara-app/config-service) | `develop` | [f2db28f](https://github.com/elara-app/config-service/commit/f2db28f0a87c66a964cede74ba35d093ee56d95d) | 4/21/2026, 12:18:32 AM | Merge pull request #10 from elara-app/main  Update README with DeepWiki badge | [andresbetov](https://github.com/andresbetov) |
 | [discovery-service](https://github.com/elara-app/discovery-service) | `develop` | [a022b49](https://github.com/elara-app/discovery-service/commit/a022b4950c8da09d84d46cc52f88ebfd3f251bf9) | 4/21/2026, 12:21:20 AM | Merge pull request #6 from elara-app/main  Add DeepWiki badge to README | [andresbetov](https://github.com/andresbetov) |
 | [centralized-configuration](https://github.com/elara-app/centralized-configuration) | `develop` | [f6ce4c1](https://github.com/elara-app/centralized-configuration/commit/f6ce4c1213c497fdf404d4cf2c49b3adcc5d57d9) | 4/21/2026, 12:16:43 AM | Merge pull request #22 from elara-app/main  Enhance service configurations and standardize profile descriptions | [andresbetov](https://github.com/andresbetov) |
 | [api-gateway](https://github.com/elara-app/api-gateway) | `develop` | [e4a55f8](https://github.com/elara-app/api-gateway/commit/e4a55f8fbf309ffcd3ca5f85391e389a9da75f6e) | 4/21/2026, 12:20:21 AM | Merge pull request #7 from elara-app/main  Update README.md with DeepWiki badge | [andresbetov](https://github.com/andresbetov) |
 
-_Last updated: 4/21/2026, 12:30:41 AM_
+_Last updated: 5/1/2026, 2:42:12 AM_
 <!-- COMMITS-TABLE:END -->
 ---
 

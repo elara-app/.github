@@ -1,0 +1,200 @@
+name: Publish Service Image
+
+on:
+  workflow_call:
+    inputs:
+      image_name:
+        description: Fully qualified image name, for example ghcr.io/elara-app/inventory-service
+        required: true
+        type: string
+      dockerfile:
+        description: Path to the Dockerfile, relative to the repository root
+        required: false
+        type: string
+        default: Dockerfile
+      context:
+        description: Docker build context
+        required: false
+        type: string
+        default: .
+
+jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      short_sha: ${{ steps.short-sha.outputs.short_sha }}
+    steps:
+      - name: Compute short commit SHA
+        id: short-sha
+        shell: bash
+        env:
+          SHA: ${{ github.sha }}
+        run: echo "short_sha=${SHA:0:7}" >> "$GITHUB_OUTPUT"
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Java
+        uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+
+      - name: Run tests
+        run: sh ./mvnw -B clean verify -Dspring.profiles.active=test
+
+  build:
+    name: Build ${{ matrix.arch }}
+    needs:
+      - prepare
+      - test
+    runs-on: ${{ matrix.runner }}
+    permissions:
+      contents: read
+      packages: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: amd64
+            runner: ubuntu-24.04
+            cache_mode: max
+          - arch: arm64
+            runner: ubuntu-24.04-arm
+            cache_mode: min
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Log in to GHCR
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+
+      - name: Check existing image tag
+        id: check
+        shell: bash
+        env:
+          IMAGE_NAME: ${{ inputs.image_name }}
+          SHORT_SHA: ${{ needs.prepare.outputs.short_sha }}
+          ARCH: ${{ matrix.arch }}
+        run: |
+          set -euo pipefail
+
+          tag="${IMAGE_NAME}:sha-${SHORT_SHA}-${ARCH}"
+
+          if output=$(docker buildx imagetools inspect "$tag" 2>&1); then
+            image="$(docker buildx imagetools inspect "$tag" --format '{{json .Image}}')"
+            if ! jq -e --arg arch "$ARCH" '
+              if type == "object" and has("architecture") then
+                .os == "linux" and .architecture == $arch
+              else
+                [.[] | {os: .os, arch: .architecture}] as $images
+                | ($images | length) > 0
+                  and ($images | all(.os == "linux" and .arch == $arch))
+              end
+            ' <<<"$image" >/dev/null; then
+              echo "::error::Tag ${tag} already exists but is not linux/${ARCH}."
+              echo "$output"
+              exit 1
+            fi
+            echo "Tag ${tag} already exists with the expected architecture; skipping the build."
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          elif grep -qiE 'not found|manifest unknown|MANIFEST_UNKNOWN|no such manifest|name unknown' <<<"$output"; then
+            echo "Tag ${tag} does not exist yet; the build will run."
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::Unable to inspect ${tag}:"
+            echo "$output"
+            exit 1
+          fi
+
+      - name: Build and push image
+        if: steps.check.outputs.exists != 'true'
+        uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7.4.0
+        with:
+          context: ${{ inputs.context }}
+          file: ${{ inputs.dockerfile }}
+          platforms: linux/${{ matrix.arch }}
+          push: true
+          tags: ${{ inputs.image_name }}:sha-${{ needs.prepare.outputs.short_sha }}-${{ matrix.arch }}
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+          cache-from: type=gha,scope=${{ inputs.image_name }}-${{ matrix.arch }}
+          cache-to: type=gha,mode=${{ matrix.cache_mode }},scope=${{ inputs.image_name }}-${{ matrix.arch }}
+
+  finalize:
+    name: Finalize
+    needs:
+      - prepare
+      - build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Log in to GHCR
+        uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+
+      - name: Create multi-architecture tags
+        shell: bash
+        env:
+          IMAGE_NAME: ${{ inputs.image_name }}
+          SHORT_SHA: ${{ needs.prepare.outputs.short_sha }}
+        run: |
+          set -euo pipefail
+
+          docker buildx imagetools create \
+            --tag "${IMAGE_NAME}:sha-${SHORT_SHA}" \
+            --tag "${IMAGE_NAME}:latest" \
+            "${IMAGE_NAME}:sha-${SHORT_SHA}-amd64" \
+            "${IMAGE_NAME}:sha-${SHORT_SHA}-arm64"
+
+      - name: Verify multi-architecture tags
+        shell: bash
+        env:
+          IMAGE_NAME: ${{ inputs.image_name }}
+          SHORT_SHA: ${{ needs.prepare.outputs.short_sha }}
+        run: |
+          set -euo pipefail
+
+          for tag in "sha-${SHORT_SHA}" "latest"; do
+            ref="${IMAGE_NAME}:${tag}"
+            for arch in amd64 arm64; do
+              if ! docker buildx imagetools inspect --raw "$ref" \
+                | jq -e --arg arch "$arch" \
+                  'any(.manifests[]?; .platform.os == "linux" and .platform.architecture == $arch)' >/dev/null; then
+                echo "::error::${ref} does not contain linux/${arch}."
+                exit 1
+              fi
+            done
+            echo "Verified that ${ref} contains linux/amd64 and linux/arm64."
+          done

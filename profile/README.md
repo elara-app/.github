@@ -45,27 +45,19 @@ Both business APIs are implemented end to end. There is no frontend; Swagger UI 
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
   Client[Client] --> Gateway[api-gateway<br/>:8080]
   Gateway --> Inventory[inventory-service<br/>:8081]
   Gateway --> UOM[unit-of-measure-service<br/>:8082]
   Inventory -->|validate UOM| UOM
-  Gateway -.-> Discovery[discovery-service<br/>:8761]
-  Inventory -.-> Discovery
-  UOM -.-> Discovery
-  Gateway --> Config[config-service<br/>:8888]
-  Inventory --> Config
-  UOM --> Config
-  Config --> ConfigRepo[(centralized-configuration)]
+  Gateway -.-> Platform[discovery-service<br/>config-service<br/>RabbitMQ<br/>Vault]
+  Inventory -.-> Platform
+  UOM -.-> Platform
   Inventory --> InventoryDB[(inventory_db)]
   UOM --> UOMDB[(unit_of_measure_db)]
-  Inventory --> Rabbit[(RabbitMQ)]
-  UOM --> Rabbit
-  Inventory --> Vault[(Vault)]
-  UOM --> Vault
 ```
 
-All runtime services, both PostgreSQL instances, RabbitMQ and Vault are orchestrated by `infrastructure` through Docker Compose. The gateway is the client entry point; the source stack also publishes infrastructure ports for local inspection.
+The Config Server serves the `centralized-configuration` Git repository. All runtime services, both PostgreSQL instances, RabbitMQ and Vault are orchestrated by `infrastructure` through Docker Compose. The gateway is the client entry point; the source stack also publishes infrastructure ports for local inspection.
 
 - **Database per service.** Inventory stores `baseUnitOfMeasureId` and validates it over HTTP against UOM; there is no cross-service foreign key.
 - **Thin gateway.** Routing and Swagger aggregation live in `centralized-configuration`; the gateway code contains only the application entry point and the access-log filter.

@@ -9,7 +9,7 @@
     "keywords": [],
     "author": "",
     "type": "module",
-    "license": "ISC",
+    "license": "MIT",
     "description": "",
     "dependencies": {
         "@octokit/auth-app": "^8.0.1",

@@ -56,16 +56,16 @@ flowchart LR
   Gateway --> Config[config-service<br/>:8888]
   Inventory --> Config
   UOM --> Config
-  Config --> ConfigRepo[(centralized-configuration)]
+  Config --> ConfigRepo[Config repo]
   Inventory --> InventoryDB[(inventory_db)]
   UOM --> UOMDB[(unit_of_measure_db)]
-  Inventory --> Rabbit[(RabbitMQ)]
+  Inventory --> Rabbit[RabbitMQ]
   UOM --> Rabbit
-  Inventory --> Vault[(Vault)]
+  Inventory --> Vault[Vault]
   UOM --> Vault
 ```
 
-All runtime services, both PostgreSQL instances, RabbitMQ and Vault are orchestrated by `infrastructure` through Docker Compose. The gateway is the client entry point; the source stack also publishes infrastructure ports for local inspection.
+`Config repo` is the `centralized-configuration` Git repository. All runtime services, both PostgreSQL instances, RabbitMQ and Vault are orchestrated by `infrastructure` through Docker Compose. The gateway is the client entry point; the source stack also publishes infrastructure ports for local inspection.
 
 - **Database per service.** Inventory stores `baseUnitOfMeasureId` and validates it over HTTP against UOM; there is no cross-service foreign key.
 - **Thin gateway.** Routing and Swagger aggregation live in `centralized-configuration`; the gateway code contains only the application entry point and the access-log filter.

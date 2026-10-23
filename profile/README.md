@@ -163,3 +163,7 @@ Current suite: **379 tests** across the five services — 128 inventory, 229 uni
 ## Maintainer
 
 Designed and maintained by [@andresbetov](https://github.com/andresbetov). Issues and questions are welcome in the relevant repository.
+
+## License
+
+MIT. See the `LICENSE` file in each repository.

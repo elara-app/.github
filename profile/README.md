@@ -20,7 +20,7 @@
   <a href="#run-the-demo">Run the demo</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="#repositories">Repositories</a> ·
-  <a href="https://bit.ly/4iznLgS">Final report</a>
+  <a href="https://doi.org/10.5281/zenodo.23679956">Final report</a>
 </p>
 
 ## What is Elara?
@@ -150,7 +150,7 @@ Current suite: **379 tests** across the five services — 128 inventory, 229 uni
 | [Unit of measure service](https://github.com/elara-app/unit-of-measure-service#readme) | UOM/status API, invariants and tests |
 | [Infrastructure](https://github.com/elara-app/infrastructure#readme) | Quickstart, ports, source vs published, and troubleshooting |
 | [Centralized configuration](https://github.com/elara-app/centralized-configuration#readme) | Profile matrix, property ownership and Vault paths |
-| [Final written report](https://bit.ly/4iznLgS) | Full academic report on the architecture and engineering practices (Spanish PDF) |
+| [Final written report](https://doi.org/10.5281/zenodo.23679956) | Full academic report on the architecture and engineering practices (Spanish PDF) |
 
 ## Maintainer
 
